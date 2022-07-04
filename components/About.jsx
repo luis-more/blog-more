@@ -19,7 +19,7 @@ const About = () => {
             web desde un diseño de interfaz hasta el manejo de datos de negocios
           </p>
           <p className="p-2 text-gray-600">
-            Mira algunos de mis ultimos proyectos
+            Mira algunos de mis proyectos
           </p>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
