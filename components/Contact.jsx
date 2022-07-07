@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import { AiOutlineMail } from "react-icons/ai";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { BsWhatsapp } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import ContactImg from "../public/assets/contact.jpg";
@@ -51,9 +51,9 @@ const Contact = () => {
                 <p className="uppercase pt-8">Conéctate conmigo</p>
                 <div className="flex items-center justify-between py-4">
                   <a
-                    href="https://www.linkedin.com/in/clint-briley-50056920a/"
+                    href="https://www.linkedin.com/in/luis-more-85a931244/"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="luis-more"
                   >
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <FaLinkedinIn />
@@ -62,7 +62,7 @@ const Contact = () => {
                   <a
                     href="https://github.com/luis-more"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="luis-more"
                   >
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <FaGithub />
@@ -72,12 +72,14 @@ const Contact = () => {
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <AiOutlineMail />
                   </div>
-                  <Link href="/resume">
-                    <a>
-                      <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                        <BsFillPersonLinesFill />
-                      </div>
-                    </a>
+                  <Link
+                    href="https://web.whatsapp.com/"
+                    target="_blank"
+                    rel="more-whatsapp"
+                  >
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <BsWhatsapp />
+                    </div>
                   </Link>
                 </div>
               </div>

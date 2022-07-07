@@ -1,6 +1,6 @@
 
 import Link from "next/link";
-import propertyImg from "../public/assets/projects/property.jpg";
+import portafiloImg from "../public/assets/projects/portafolio.png";
 import cryptoImg from "../public/assets/projects/crypto.jpg";
 import netfixImg from "../public/assets/projects/netflix.jpg";
 import twitchImg from "../public/assets/projects/twitch.jpg";
@@ -18,8 +18,8 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItems
             title="Buscador de Propiedades"
-            backgrounImg={propertyImg}
-            projectUrl="/property"
+            backgrounImg={portafiloImg}
+            projectUrl="/portafolio"
           />
           <ProjectItems
             title="Cripto App"
