@@ -11,7 +11,6 @@ const handleSubmit = () => {
   setName("");
   setPhone("");
   setEmail("");
-  setSubject("");
   setMessage("");
 };
 
@@ -19,16 +18,17 @@ const Contact = () => {
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
-  const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
 
   return (
-    <div id="contact" className="w-full lg:h-screen">
-      <div className="max-w-[1240px] m-auto px-2 py-16 w-full ">
-        <p className="text-xl tracking-widest uppercase text-[#5651e5]">
+    <div id="contact" className="w-full lg:h-screen h-auto ">
+      <div className="max-w-[1240px] m-auto py-16 w-full h-auto px-2">
+        <p className="text-xl tracking-widest uppercase text-[#5651e5] mx-4">
           Contacto
         </p>
-        <h2 className="text-3xl sm:text-4xl py-4">Contactame</h2>
+        <h2 className="text-3xl sm:text-4xl py-4 w-full h-auto mx-auto">
+          Contactame
+        </h2>
         <div className="grid lg:grid-cols-5 gap-8">
           {/* left */}
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
@@ -41,15 +41,16 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className="py-2">Luis More</h2>
-                <p>Desarrollador Web</p>
+                <p className="text-center  py-4 rounded-lg  text-gray-700 font-bold text-lg cursor-pointer">
+                  Desarrollador Web
+                </p>
                 <p className="py-4">
                   Disponibilidad para trabajos freelancer contáctame y hablamos.
                 </p>
               </div>
               <div>
                 <p className="uppercase pt-8">Conéctate conmigo</p>
-                <div className="flex items-center justify-between py-4">
+                <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
                   <a
                     href="https://www.linkedin.com/in/luis-more-85a931244/"
                     target="_blank"
@@ -68,7 +69,6 @@ const Contact = () => {
                       <FaGithub />
                     </div>
                   </a>
-
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <AiOutlineMail />
                   </div>
@@ -91,8 +91,9 @@ const Contact = () => {
             <div className="p-4">
               <form
                 onSubmit={handleSubmit}
-                action="https://getform.io/f/08ebcd37-f5b5-45be-8c13-714f011ce060"
+                action="https://getform.io/f/a47e131c-d339-4374-834b-d71fbd680618"
                 method="POST"
+                target="_blank"
               >
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
@@ -126,16 +127,7 @@ const Contact = () => {
                     onChange={(e) => setEmail(e.target.value)}
                   />
                 </div>
-                <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm py-2">Tema</label>
-                  <input
-                    className="border-2 rounded-lg p-3 flex border-gray-300"
-                    type="text"
-                    name="subject"
-                    value={subject}
-                    onChange={(e) => setSubject(e.target.value)}
-                  />
-                </div>
+
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Mensaje</label>
                   <textarea
