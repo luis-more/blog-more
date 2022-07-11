@@ -35,12 +35,12 @@ const netflix = () => {
             para verse de manera muy elegante en cualquier dispisitivo ya sea
             celular, tablet, laptop o pc de escritorios
           </p>
-          <a href="https://github.com/luis-more" target="_blank" rel="more-web">
+          <a href="https://github.com/luis-more" rel="more-web">
             <button className="shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white px-8 py-2 mt-4 mr-8">
               Code
             </button>
           </a>
-          <a href="https://github.com/luis-more" target="_blank" rel="more-web">
+          <a href="https://github.com/luis-more" rel="more-web">
             <button className="shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white px-8 py-2 mt-4">
               Demo
             </button>

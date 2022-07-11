@@ -39,7 +39,6 @@ const property = () => {
           </p>
           <a
             href="https://github.com/luis-more"
-            target="_blank"
             rel="luis-more"
           >
             <button className="shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white px-8 py-2 mt-4 mr-8">
@@ -48,7 +47,6 @@ const property = () => {
           </a>
           <a
             href="https://github.com/luis-more"
-            target="_blank"
             rel="luis-more"
           >
             <button className="shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white px-8 py-2 mt-4">

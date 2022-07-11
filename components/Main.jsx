@@ -35,7 +35,6 @@ const Main = () => {
           <div className="flex items-center justify-between max-w-[330px] m-auto py-16">
             <a
               href="https://www.linkedin.com/in/luis-more-85a931244/"
-              target="_blank"
               rel="luis-more"
             >
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
@@ -44,7 +43,6 @@ const Main = () => {
             </a>
             <a
               href="https://github.com/luis-more"
-              target="_blank"
               rel="luis-more"
             >
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
@@ -58,7 +56,6 @@ const Main = () => {
             </Link>
             <Link
               href="https://web.whatsapp.com/"
-              target="_blank"
               rel="more-whatsapp"
             >
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
